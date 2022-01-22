@@ -20,9 +20,7 @@ public class Reporterlib {
 		
 		WebDriver driver =new FirefoxDriver();
 		driver.get("http://gmail.com");
-		
 		//Use getscreenshotAs() mts to a 
-		
 		EventFiringWebDriver ed = new EventFiringWebDriver(driver);
 		
 		//Take screeen shoot 
