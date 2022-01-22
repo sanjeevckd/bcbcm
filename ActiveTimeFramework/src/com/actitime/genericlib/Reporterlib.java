@@ -25,6 +25,7 @@ public class Reporterlib {
 		
 		EventFiringWebDriver ed = new EventFiringWebDriver(driver);
 		
+		//Take screeen shoot 
 		File scrcFile=ed.getScreenshotAs(OutputType.FILE);
 		
 		//Use apache POI,to copy ss in to local folder
@@ -32,6 +33,7 @@ public class Reporterlib {
 		
 		
 		FileUtils.copyFile(scrcFile,dstfile);
+		System.out.println("screen shot taken ");
 
 }
 
