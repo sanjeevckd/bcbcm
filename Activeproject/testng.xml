@@ -1,0 +1,12 @@
+<suite name="Activetime">
+<test name="ActivetimeTest">
+<parameter name="sUname" value="Admin"/>
+<parameter name="pwd" value="manager"/>
+<classes>
+<class name="Activetime.LoginToActivetime"/>
+
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Activetime]">
+  <parameter name="sUname" value="Admin"/>
+  <parameter name="pwd" value="manager"/>
+  <test name="ActivetimeTest(failed)">
+    <parameter name="sUname" value="Admin"/>
+    <parameter name="pwd" value="manager"/>
+    <classes>
+      <class name="Activetime.LoginToActivetime">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Activetime.LoginToActivetime -->
+    </classes>
+  </test> <!-- ActivetimeTest(failed) -->
+</suite> <!-- Failed suite [Activetime] -->
